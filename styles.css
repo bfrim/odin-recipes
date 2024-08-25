@@ -1,7 +1,52 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
-    background-color: rgb(35, 35, 35);
-    color: white;
+    padding: 0;
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main ul {
+    margin: 0;
+}
+
+.recipe {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#bcm {
+    background-image: url(./images/bakedchickenmarinara.webp);
+}
+#dtb {
+    background-image: url(./images/doubletomatobruschetta.webp);
+}
+#cec {
+    background-image: url(./images/chocolateeclaircake.webp);
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
